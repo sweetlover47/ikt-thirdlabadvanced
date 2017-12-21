@@ -9,6 +9,6 @@ fi
 
 case $op  in
 add) echo $[ $1 + $2 ] ;;
-sub) echo "$[$1-$2]" ;;
+sub) echo $[ $1 - $2 ] ;;
 mul) echo $[ $1 * $2 ] ;;
 esac
